@@ -1,5 +1,6 @@
 function isVowel(char){
-  if (char === "a" || char=== "e" || char === "i" || char === "o" || char === "u"){
+
+  if (/[aeiou]/.test(char)){
     return true;
   }
   else{
